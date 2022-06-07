@@ -21,6 +21,9 @@ with open("data/restock.json") as f:
 # Create the orders
 with open("data/orders.json") as f:
     zip.process_order(json.loads(f.read()))
+    print("ORDERS:")
     pprint(zip.order_data)
+    print("SHIPMENTS:")
     pprint(zip.shipment_data)
+    print("BACKORDERS:")
     pprint(zip.backorders)
