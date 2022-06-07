@@ -14,9 +14,3 @@ class Inventory:
             self.inventory[item["product_id"]] = item
         print("Inventory items stocked")
         return self.inventory
-
-    # def get(self):
-    #     return
-
-    # def remove(self):
-    #     return
