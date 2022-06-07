@@ -1,7 +1,6 @@
 # Thank you for the challenge!
 
-Hey there.
-For your convenience, I will break down how this code works so you know how to run the tests and to run the app itself.
+For your convenience, I have broken down how the code works so you can run the tests and the app itself.
 
 ## Running tests
 
