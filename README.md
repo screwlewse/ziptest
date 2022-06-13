@@ -22,6 +22,11 @@ pip install pytest
 pytest tests/
 ```
 
+## Explanation of files and their purpose: 
+
+- `main.py`: This file simply runs the API's.   This is like the client who makes the orders.
+- `order_actions.py`: The view layer in MVC.  This hanldes the calls, and calls the correct objects.  
+
 ## Running the app against the dummy data
 
 I included the dummy data from the instructions but I added a bit more to the orders so that we can show off backorders and multiple shipments.
